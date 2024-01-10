@@ -11,4 +11,4 @@ if __name__ == '__main__':
     queue_servo.queue_angle(90, 4000, easing.easeInExpo)
     queue_servo.queue_angle(-90, 4000, easing.easeOutExpo)
     queue_servo.process_queue()
-    print("Done!")
+    print("Done Execution!")
